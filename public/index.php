@@ -12,7 +12,7 @@ include_once('header.php');
           To continue, please accept our terms and conditions.</p>
 </body>
 
-<form>
+<form action="/=agreement.php" method="get">
     <div>
         <input type="radio" id="agree" name="choice" value="agree">
         <label for="agree">I Agree</label><br>
